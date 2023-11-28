@@ -1,0 +1,87 @@
+#footer-links {
+  display: grid;
+}
+
+#first-link:hover {
+  letter-spacing: 4px;
+  transition: all 0.8s ease 0.4s;
+  color: red !important;
+}
+
+#second-link:hover {
+  letter-spacing: 4px;
+  transition: all 0.8s ease 0.4s;
+  color: red !important;
+}
+
+#third-link:hover {
+  letter-spacing: 4px;
+  transition: all 0.8s ease 0.4s;
+  color: red !important;
+}
+
+#fourth-link:hover {
+  letter-spacing: 4px;
+  transition: all 0.8s ease 0.4s;
+  color: red !important;
+}
+
+#fifth-link:hover {
+  letter-spacing: 4px;
+  transition: all 0.8s ease 0.4s;
+  color: red !important;
+}
+
+p:hover {
+  color: white;
+  text-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+              letter-spacing: 4px;
+              transition: all 0.8s ease 0.4s;
+}
+
+h6:hover {
+  color: white;
+  text-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+              letter-spacing: 4px;
+              transition: all 0.8s ease 0.4s;
+}
+
+#sixth-link{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#sixth-link:hover, #sixth-link:focus, #sixth-link:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+  text-shadow: 0 0 2px red,
+  0 0 5px red,
+  0 0 7px red,
+  0 0 10px red;
+  letter-spacing: 2px;
+  transition: all 0.8s ease 0.4s;
+}
+
+#last-detail:hover {
+  -webkit-transform: scale(1.1) rotate(-2deg);
+  transform: scale(1.1) rotate(-2deg);
+  text-shadow: 0 0 2px red,
+  0 0 5px red,
+  0 0 7px red,
+  0 0 10px red;
+  letter-spacing: 2px;
+  transition: all 0.8s ease 0.4s;
+}
+
