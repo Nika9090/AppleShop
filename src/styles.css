@@ -1,9 +1,6 @@
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
-  * {
-    scrollbar-width: thin;
-    scrollbar-color: #000000 red;
-  }
+
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
